@@ -1,5 +1,4 @@
-function removeAccent(str) {  
-    str = str.toLowerCase();                                                     
+function removeAccent(str) {                                                       
     str = str.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
     str = str.replace(new RegExp('[ÉÈÊ]','gi'), 'e');
     str = str.replace(new RegExp('[ÍÌÎ]','gi'), 'i');
